@@ -1,0 +1,71 @@
+body {
+    background:hsl(16, 15%, 85%);
+    
+}
+.navbar {
+    margin: 10px 45px;
+    padding:20px 0px;
+}
+ .navbar>.container-fluid{
+    padding:0px 30px ;
+} 
+
+.flex {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;   
+}
+
+.box {
+    width:270px;
+    background:white;
+    margin: 20px 20px;
+    border:1.5px solid black;
+    display:flex;
+    padding:15px 5px;
+    
+       
+}
+  
+.box img{
+    width:72px;
+    height:72px;
+    border-radius:50%;
+    margin-right:10px;
+}
+
+.box text{
+      padding:5px;
+}
+
+a {
+    text-decoration-line: none;
+    font-size:medium;
+
+}
+
+p {
+      margin:0px;
+}
+demo{
+    text-transform: ;
+}
+
+/* @media (max-width: 699.98px) { ... }
+  
+  
+  
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1023.98px) { ... }
+  
+  
+  
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1439.98px) { ... }
+  
+  // XX-Large devices (larger desktops)
+  // No media query since the xxl breakpoint has no upper bound on its width
+ */
+
+  
